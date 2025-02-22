@@ -1,0 +1,89 @@
+body {
+    font-family: Arial;
+    text-align:center;
+}
+
+h1 {
+    font-weight: 800;
+}
+
+form {
+    width: 50%;
+    margin-inline: auto;
+}
+
+.row {
+    display: flex;
+    gap: 1.2em;
+    margin-block: 1em;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+
+input {
+    width: max-content;
+    height: fit-content;
+    font-size: 1.2em;
+    padding: 0.5em;
+    border: solid 1.5px lightgrey;
+    border-radius: 6px;
+}
+
+#agree {
+    margin-inline: -1em;
+    align-items: center;
+}
+
+#agreeBox {
+    height: fit-content;
+    display: block;
+    text-align: left;
+    font-size: 1.2em;
+}
+
+input[type=checkbox] {
+    margin-right: 0.25em;
+}
+
+p {
+    line-height: 1.2em;
+    font-size: 1em;
+}
+
+#termsText {
+    display: block;
+    text-align: left;
+    margin: 0em;
+    flex: 3;
+}
+
+#register {
+    background-color: #5383EC;
+    padding-inline: 0.4em;
+    padding-block: 0.01em;
+    color: white;
+    border-radius: 4px;
+}
+
+#terms {
+    color: blue;
+}
+
+input[type=button] {
+    display: inline-block;
+    width:100%;
+    color: white;
+}
+
+#registerButton {
+    background-color: #5383EC;
+}
+
+#signInButton {
+    background-color: #5AC560;
+}
