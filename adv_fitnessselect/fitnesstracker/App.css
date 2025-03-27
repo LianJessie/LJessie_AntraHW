@@ -1,0 +1,66 @@
+body {
+  font-family: Calibri, sans-serif;
+  display: flex;
+}
+
+#center {
+  text-align: center;
+}
+
+br {
+  content: "";
+  display: block;
+  margin: 1em;
+}
+
+#tracker {
+  width: 420px
+}
+
+span {
+  margin-right: 1em;
+}
+
+input {
+  width: calc(100%);
+  box-sizing: border-box;
+  padding: 0.5em;
+}
+
+input[type="button"] {
+  border: none;
+  background-color: #239C3B;
+  color: white;
+  border-radius: 3px;
+  padding: 0.75em;
+  margin-bottom: 1.5em;
+}
+
+select {
+  width: 100%;
+  padding: 0.5em;
+}
+
+option {
+  width: max-content;
+}
+
+.goal {
+  padding: 0.6em;
+  border: solid 1px darkgrey;
+  background-color: #EEEEEE;
+  border-radius: 3px;
+  display: flex;
+  margin-bottom: 1em;
+}
+
+button {
+  border: none;
+  background-color: #016FFF;
+  border-radius: 2.5px;
+  color: white;
+  margin-left: auto;
+  margin-right: 0px;
+  padding-inline: 0.75em;
+  padding-block: 0.25em;
+}
